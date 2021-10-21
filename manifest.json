@@ -1,0 +1,24 @@
+{
+    "manifest_version": 2,
+    "name": "girlfriend-gift-1",
+    "version": "0.0.1",
+    "description": "朱子璇的生日礼物1",
+    "icons": {
+        "16": "img/test.jpeg",
+        "48": "img/test.jpeg",
+        "128": "img/test.jpeg"
+    },
+    "browser_action": {
+        "default_icon": "img/test.jpeg",
+        "default_title": "这是一个示例Chrome插件",
+        "default_popup": "popup.html"
+    },
+    "chrome_url_overrides": {
+        "newtab": "newtab.html"
+    },
+    "web_accessible_resources": ["js/scripts.js"],
+    "devtools_page": "devtools.html",
+    "permissions": [
+        "http://*/"
+    ]
+}
